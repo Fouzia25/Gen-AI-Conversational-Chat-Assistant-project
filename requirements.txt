@@ -1,0 +1,12 @@
+# Web interface (the chat screen in your browser)
+streamlit>=1.66,<2
+
+# LangChain: prompt templates, message types, and the OpenAI connector
+langchain-core>=1.7,<2
+langchain-openai>=1.7,<2
+
+# Reads your secret API key from the local .env file
+python-dotenv>=1.2,<2
+
+# Runs the automated tests
+pytest>=9.1,<10

@@ -1,0 +1,24 @@
+# --- Secrets: NEVER commit these ---
+# Your real API key lives here. Only .env.example (with placeholders) is safe to share.
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets file (in case you use it later)
+.streamlit/secrets.toml
+
+# --- Virtual environments (big, and specific to your PC) ---
+.venv/
+venv/
+env/
+
+# --- Python cache files (created automatically) ---
+__pycache__/
+*.pyc
+
+# --- Test cache ---
+.pytest_cache/
+
+# --- Editor / Windows clutter ---
+.vscode/
+Thumbs.db
